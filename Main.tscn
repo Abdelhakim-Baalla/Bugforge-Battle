@@ -16,3 +16,5 @@ shape = SubResource("CircleShape2D_g5e2h")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 texture = SubResource("CanvasTexture_m8n34")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
