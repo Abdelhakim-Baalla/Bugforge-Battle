@@ -1,4 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://spcfbjqf5ia7"]
+[gd_scene load_steps=4 format=3 uid="uid://spcfbjqf5ia7"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_1up8n"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_g5e2h"]
 radius = 16.0
@@ -10,6 +12,7 @@ specular_color = Color(0.254902, 0.411765, 0.882353, 1)
 
 [node name="Player" type="CharacterBody2D" parent="."]
 position = Vector2(208, 36)
+script = ExtResource("1_1up8n")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 shape = SubResource("CircleShape2D_g5e2h")
